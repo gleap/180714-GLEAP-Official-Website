@@ -1,0 +1,19 @@
+body {
+  font-family: 'Oxygen', "Arial", "HGP行書体", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  width: 100%;
+}
+
+.topWrapper {
+  height: 800px;
+  width: 100%;
+  background-color: rgb(10, 214, 221);
+}
