@@ -1,11 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: 'Oxygen', "Arial", "HGP行書体", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
+  font-family: font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+  font-size: 1.6rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
+}
+
+/* input, select, textarea {
+  font-size: 1.6rem;
+} */
+
+header {
+  height: 6.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  background-color: rgba(34, 49, 52, 0.42);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header nav {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+  margin: auto 5%;
+  padding: 0;
+  line-height: 6.5rem;
 }
 
 main {
@@ -13,7 +63,13 @@ main {
 }
 
 .topWrapper {
-  height: 800px;
+  height: 100vh;
   width: 100%;
-  background-color: rgb(10, 214, 221);
+  /* background-color: rgb(10, 214, 221); */
+  background: url(../images/夜景1/y1L.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+.newInformation {
+  height: 50rem;
 }
