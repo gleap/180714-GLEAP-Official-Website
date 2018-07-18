@@ -22,6 +22,10 @@ li {
   list-style: none;
 }
 
+a {
+  color: rgb(255, 255, 255);
+}
+
 /* input, select, textarea {
   font-size: 1.6rem;
 } */
@@ -53,7 +57,7 @@ header ul {
 
 header li {
   display: inline-block;
-  margin: auto 5%;
+  margin: auto 2%;
   padding: 0;
   line-height: 6.5rem;
 }
@@ -62,14 +66,30 @@ main {
   width: 100%;
 }
 
+.gleapSvg {
+  text-align: center;
+}
+
+.gleapPath {
+  fill: rgb(10, 214, 221);
+  stroke: rgb(10, 214, 221);
+}
+
 .topWrapper {
   height: 100vh;
   width: 100%;
   /* background-color: rgb(10, 214, 221); */
-  background: url(../images/夜景1/y1L.jpg) no-repeat fixed center;
+  background: url(../images/夜景2/y2M.jpg) no-repeat fixed center;
   background-size: cover;
 }
 
+.bg {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
 .newInformation {
-  height: 50rem;
+  height: 80rem;
 }
